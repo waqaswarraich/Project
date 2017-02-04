@@ -1,0 +1,51 @@
+﻿@model ABSM.Models.GeneralComplain
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+
+<div class="card-block">
+    <h4>General Complain</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+
+        <dd>
+            <img alt="" src="@Url.Content(Model.ImageUrl)" height="200" width="500" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href="@Url.Action("Status","Complains", new { id = Model.ID })" class="btn btn-warning waves-effect waves-light"> <i class="fa fa-rocket m-r-5"></i> <span>Send Feedback</span> </a>
+  
+    @Html.ActionLink("Back to List", "Index","Complains")
+</p>
