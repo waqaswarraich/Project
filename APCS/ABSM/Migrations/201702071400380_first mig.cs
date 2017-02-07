@@ -3,7 +3,7 @@ namespace ABSM.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class StatusDate : DbMigration
+    public partial class firstmig : DbMigration
     {
         public override void Up()
         {

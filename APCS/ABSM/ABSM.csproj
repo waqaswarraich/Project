@@ -197,33 +197,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201701071915053_Initial.cs" />
-    <Compile Include="Migrations\201701071915053_Initial.Designer.cs">
-      <DependentUpon>201701071915053_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701072101154_3rd.cs" />
-    <Compile Include="Migrations\201701072101154_3rd.Designer.cs">
-      <DependentUpon>201701072101154_3rd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701081806267_Listed.cs" />
-    <Compile Include="Migrations\201701081806267_Listed.Designer.cs">
-      <DependentUpon>201701081806267_Listed.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701082328007_GeneralComplain.cs" />
-    <Compile Include="Migrations\201701082328007_GeneralComplain.Designer.cs">
-      <DependentUpon>201701082328007_GeneralComplain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701082351410_ModifiedGeneralComplain.cs" />
-    <Compile Include="Migrations\201701082351410_ModifiedGeneralComplain.Designer.cs">
-      <DependentUpon>201701082351410_ModifiedGeneralComplain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701091236456_RateModified.cs" />
-    <Compile Include="Migrations\201701091236456_RateModified.Designer.cs">
-      <DependentUpon>201701091236456_RateModified.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201701111105210_Unrequired Email.cs" />
-    <Compile Include="Migrations\201701111105210_Unrequired Email.Designer.cs">
-      <DependentUpon>201701111105210_Unrequired Email.cs</DependentUpon>
+    <Compile Include="Migrations\201702071400380_first mig.cs" />
+    <Compile Include="Migrations\201702071400380_first mig.Designer.cs">
+      <DependentUpon>201702071400380_first mig.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -716,33 +692,15 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701071915053_Initial.resx">
-      <DependentUpon>201701071915053_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701072101154_3rd.resx">
-      <DependentUpon>201701072101154_3rd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701081806267_Listed.resx">
-      <DependentUpon>201701081806267_Listed.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701082328007_GeneralComplain.resx">
-      <DependentUpon>201701082328007_GeneralComplain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701082351410_ModifiedGeneralComplain.resx">
-      <DependentUpon>201701082351410_ModifiedGeneralComplain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701091236456_RateModified.resx">
-      <DependentUpon>201701091236456_RateModified.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201701111105210_Unrequired Email.resx">
-      <DependentUpon>201701111105210_Unrequired Email.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201702071400380_first mig.resx">
+      <DependentUpon>201702071400380_first mig.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

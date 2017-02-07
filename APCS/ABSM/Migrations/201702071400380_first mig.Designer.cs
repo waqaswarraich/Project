@@ -7,13 +7,13 @@ namespace ABSM.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class StatusDate : IMigrationMetadata
+    public sealed partial class firstmig : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(StatusDate));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(firstmig));
         
         string IMigrationMetadata.Id
         {
-            get { return "201701141526348_StatusDate"; }
+            get { return "201702071400380_first mig"; }
         }
         
         string IMigrationMetadata.Source
